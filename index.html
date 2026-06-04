@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio Farhan Rahmansyah — AI Engineer, Machine Learning Engineer, Data Scientist, dan RAG Researcher."
+    />
+    <meta name="theme-color" content="#08111f" />
+    <title>Farhan Rahmansyah | AI & Data Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+    <div class="page-transition" aria-hidden="true"></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <div class="page-bg" aria-hidden="true">
+      <span class="orb orb-one" data-parallax="0.04"></span>
+      <span class="orb orb-two" data-parallax="0.07"></span>
+      <span class="orb orb-three" data-parallax="0.03"></span>
+      <span class="grid-overlay"></span>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a href="#top" class="brand" aria-label="Farhan Rahmansyah homepage">
+          <span class="brand-mark">FR</span>
+          <span class="brand-text">Farhan Rahmansyah</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-controls="navLinks"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="designer-hero" id="home" aria-labelledby="hero-title">
+        <div class="container designer-hero-grid">
+          <div class="designer-hero-content reveal">
+            <p class="designer-intro">Hi, I am</p>
+            <h2 class="designer-name">Farhan Rahmansyah</h2>
+
+            <h1 id="hero-title" class="designer-title">AI & Data Engineer</h1>
+
+            <p class="designer-subtitle">
+              I build solutions powered by Machine Learning, Data Science, RAG,
+              and reliable model deployment for research, business, and
+              stakeholder needs.
+            </p>
+
+            <div class="designer-socials" aria-label="Social links">
+              <a
+                href="mailto:rahmansyahfr22@gmail.com"
+                aria-label="Email Farhan"
+                >✉</a
+              >
+              <a
+                href="https://www.linkedin.com/in/farhan-rahmansyah-8830b11ba/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn Farhan"
+                >in</a
+              >
+              <a
+                href="https://github.com/FRfans"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub Farhan"
+                class="social-icon-link"
+              >
+                <svg
+                  class="social-svg-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0 1 12 6.94c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.95-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.59.69.49A10.05 10.05 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"
+                  />
+                </svg>
+              </a>
+              <a href="#projects" aria-label="Lihat portfolio Farhan">↗</a>
+            </div>
+
+            <div class="designer-actions">
+              <a
+                href="#contact"
+                class="designer-btn designer-btn-primary magnetic"
+              >
+                Hire Me
+              </a>
+              <a
+                href="assets/Farhan_Rahmansyah_CV.pdf"
+                class="designer-btn designer-btn-outline magnetic"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download CV
+              </a>
+            </div>
+
+            <div class="designer-stats" id="heroMetrics">
+              <article>
+                <strong class="counter" data-target="3.8" data-decimal="1"
+                  >0</strong
+                >
+                <span>GPA</span>
+              </article>
+              <article>
+                <strong>Top 100</strong>
+                <span>DBS Coding Camp</span>
+              </article>
+              <article>
+                <strong class="counter" data-target="11">0</strong>
+                <span>Projects</span>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="designer-hero-visual reveal"
+            data-parallax="0.08"
+            aria-hidden="true"
+          >
+            <div class="designer-circle"></div>
+
+            <div class="designer-photo-frame">
+              <img
+                src="assets/Profile.png"
+                alt="Farhan profile"
+                class="designer-photo"
+              />
+            </div>
+
+            <div class="designer-floating-card designer-card-one">
+              <span>Focus</span>
+              <strong>DATA SCIENCE • ML • AI</strong>
+            </div>
+
+            <div class="designer-floating-card designer-card-two">
+              <span>Status</span>
+              <strong>Open to Work</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding" id="about" aria-labelledby="about-title">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2 id="about-title">
+              Turning data into trustworthy AI solutions.
+            </h2>
+          </div>
+          <div class="about-content reveal">
+            <p>
+              I have a strong interest in data analysis, scientific research,
+              and technology-driven innovation. My experience includes machine
+              learning model development, RAG systems, recommendation systems,
+              forecasting, production-ready APIs, and translating prediction
+              results into stakeholder-friendly insights.
+            </p>
+            <div class="highlight-list stagger-group">
+              <article class="stagger-item">
+                <span>01</span>
+                <h3>AI & RAG Research</h3>
+                <p>
+                  Building RAG pipelines based on Sentence-BERT, FAISS, LLM, and
+                  hallucination evaluation.
+                </p>
+              </article>
+              <article class="stagger-item">
+                <span>02</span>
+                <h3>ML Engineering</h3>
+                <p>
+                  Developing ML/DL models with Scikit-Learn, PyTorch, MLflow,
+                  Docker, and CI/CD workflow.
+                </p>
+              </article>
+              <article class="stagger-item">
+                <span>03</span>
+                <h3>Data for Impact</h3>
+                <p>
+                  Presenting forecasting, visualization, and analysis that are
+                  easy for stakeholders to understand.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding muted-section"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Case Studies</p>
+            <h2 id="projects-title">
+              Selected projects across AI, data science, and deployment.
+            </h2>
+            <p class="section-subtitle">
+              Project cards use visual thumbnails, category filters, hover
+              overlays, and responsive layouts.
+            </p>
+          </div>
+
+          <div
+            class="filter-row reveal"
+            id="projectFilters"
+            aria-label="Filter projek"
+          ></div>
+          <div class="project-grid stagger-group" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding"
+        id="process"
+        aria-labelledby="process-title"
+      >
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Process</p>
+            <h2 id="process-title">How I approach AI and data projects.</h2>
+          </div>
+          <div class="process-grid stagger-group" id="processGrid"></div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding muted-section"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Experience</p>
+            <h2 id="experience-title">
+              Academic, internship, and intensive program journey.
+            </h2>
+          </div>
+          <div class="timeline" id="experienceTimeline"></div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container skills-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2 id="skills-title">
+              Technical stack aligned with my portfolio projects.
+            </h2>
+            <p class="section-subtitle">
+              Progress bars animate when the section becomes visible, adding
+              interactivity without hurting performance.
+            </p>
+          </div>
+          <div class="skills-panel reveal">
+            <div id="skillGroups"></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding muted-section"
+        id="testimonials"
+        aria-labelledby="testimonials-title"
+      >
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Testimonials</p>
+            <h2 id="testimonials-title">
+              How I position my work for stakeholders.
+            </h2>
+          </div>
+          <div
+            class="testimonial-grid stagger-group"
+            id="testimonialGrid"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding"
+        id="certifications"
+        aria-labelledby="cert-title"
+      >
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Certifications</p>
+            <h2 id="cert-title">
+              Learning credentials that support my AI and data practice.
+            </h2>
+          </div>
+          <div class="cert-grid stagger-group" id="certGrid"></div>
+        </div>
+      </section>
+
+      <section
+        class="section-padding contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-layout">
+          <div class="contact-card reveal">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">
+              Let’s build something useful with AI and data.
+            </h2>
+            <p>
+              Open to opportunities as a Data Scientist, Machine Learning
+              Engineer, AI Engineer, Research Assistant, and project
+              collaborator.
+            </p>
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary magnetic"
+                href="mailto:rahmansyahfr22@gmail.com?subject=Halo%20Farhan%2C%20saya%20tertarik%20dengan%20portfolio%20Anda"
+                >Email Me</a
+              >
+              <a
+                class="btn btn-secondary magnetic"
+                href="https://www.linkedin.com/in/farhan-rahmansyah-8830b11ba/"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <form
+            class="contact-form reveal"
+            id="contactForm"
+            aria-label="Contact form"
+          >
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              autocomplete="name"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="email@domain.com"
+              autocomplete="email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell me about your project needs or job opportunity..."
+              required
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary magnetic">
+              Send via Email
+            </button>
+            <p
+              class="form-note"
+              id="formNote"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <button
+      class="back-to-top"
+      id="backToTop"
+      type="button"
+      aria-label="Kembali ke atas"
+    >
+      ↑
+    </button>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
