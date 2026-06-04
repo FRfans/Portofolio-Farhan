@@ -302,14 +302,14 @@ const certifications = [
       "Covered data analysis, dataset exploration, and data processing using Python.",
   },
   {
-    title: "Basic Structured Query Language (SQL)",
+    title: "Structured Query Language (SQL)",
     issuer: "Dicoding Indonesia",
     date: "March 2025",
     description:
       "Covered relational database queries, data manipulation, and basic insight extraction using SQL.",
   },
   {
-    title: "Basic Data Visualization",
+    title: "Data Visualization",
     issuer: "Dicoding Indonesia",
     date: "March 2025",
     description:
