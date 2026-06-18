@@ -152,7 +152,7 @@ const projects = [
       "A sentiment analysis project on Triv app reviews using multiple NLP-based deep learning models.",
     impact: "Focus: text classification and comparative NLP modeling.",
     stack: ["Python", "NLP", "LSTM", "GRU", "CNN", "Deep Learning"],
-    github: "#",
+    github: "https://github.com/FRfans/Triv-App-Sentiment-Analysis",
   },
   {
     title: "CIFAKE Image Classification using CNN",
