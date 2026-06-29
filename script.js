@@ -204,7 +204,7 @@ const projects = [
       "Cosine Similarity",
       "RMSE",
     ],
-    github: "https://github.com/FRfans/Book-Recommendation-System",
+    github: "https://github.com/FRfans/Book-Recomendation-System-",
   },
   {
     title: "Amazon Stock Segmentation and Cluster Classification",
